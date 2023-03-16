@@ -1,5 +1,4 @@
 (function($) {
-
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('.scrollup').fadeIn();
@@ -120,7 +119,6 @@
     jQuery('.nav li').removeClass('active');
     jQuery(".nav a[href='#" + id + "']").parent().addClass("active");
   });
-
   //stats
   var runOnce = true;
   jQuery(".stats").on("appear", function(data) {

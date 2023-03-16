@@ -8,14 +8,11 @@ a:hover {
 }
 
 /* menu */
-.nav>li>a:hover {
+/* .nav>li>a:hover {
 	color: #95cbdd;
 }
+ */
 
-.navbar .navbar-nav > .active > a {
-	color: #95cbdd;
-	border-bottom: 4px solid #85b0be;
-}
 
 /* flexslider */
 .flex-control-paging li a {

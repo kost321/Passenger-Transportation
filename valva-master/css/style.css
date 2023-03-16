@@ -28,8 +28,29 @@ body {
 	display: block;
 }
 
+
+.col-md-3 {
+margin: 3px 30px 0 30px;
+}
+#section-contact{
+	display: flex;
+	flex-direction: column;
+	height: 450px;
+}
 .clear {
 	clear: both;
+}
+.appear{
+	display: flex;
+	justify-content: center;
+}
+.contact-container{
+	display: flex;
+	justify-content: space-evenly;
+}
+.contact-link{
+	font-size: 20px;
+	width: 27%;
 }
 
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -37,6 +58,17 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 h1, h2, h3, h4, h5, h6 {
 	color:#222;
+}
+
+.team-information{
+	width: 100%;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.team-detail{
+	justify-content: center;
+	display: flex;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -144,6 +176,7 @@ a:hover {
 .normalize-font-top {
 	padding-top: 25px;
 }
+
 
 
 
@@ -305,7 +338,9 @@ a:hover {
 	margin-bottom: 35px;
 }
 .mar-bot40 {
-	margin-bottom: 40px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
 }
 
 
@@ -315,7 +350,7 @@ a:hover {
 
 section.section {
 	margin:0;
-	padding: 80px 0 60px 0;
+	padding: 60px 0 60px 0;
 }
 
 .bg-white {
@@ -350,7 +385,6 @@ section.section {
 	height: 100px;
 	background-color: rgba(0,0,0,0.3);
 	display: block;
-	vertical-align: middle;
 	text-align: center;
 	margin-bottom: 0;
 	padding-bottom:0;
@@ -436,7 +470,7 @@ section.section {
 
 #intro {
   width: 100%;
-  height: 60vh;
+  height: 100vh;
   position: relative;
 	background: url(../img/intro-background.jpg) top center;
   background-size: cover;
@@ -589,18 +623,28 @@ section.featured.inner {
 About
 =========================== */
 
-.member-photo {
+.freight-transport{
 	box-sizing:border-box;
 	-webkit-border-radius:50%;
 		-moz-border-radius:50%;
 			border-radius:50%;
-	margin: 0 0 20px 0;
+	margin: 20px 0 20px 0;
+  height: 300px;
+  background-image: url('../img/freight-transport.jpg');
+  background-size: cover;
 }
-.member-photo img {
+
+.passenger-transport{
+	box-sizing:border-box;
 	-webkit-border-radius:50%;
 		-moz-border-radius:50%;
 			border-radius:50%;
+	margin: 20px 0 20px 0;
+  height: 300px;
+  background-image: url('../img/passengers.jpg');
+  background-size: cover;
 }
+
 
 .team-detail h4 {
 	font-weight: 700;
