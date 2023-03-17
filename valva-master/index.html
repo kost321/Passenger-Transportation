@@ -34,6 +34,10 @@
     data-300="line-height:60px; height:60px; background-color:rgba(5, 42, 62, 1);">
     <div class="container">
       <div class="navbar-header">
+        <div class="language-button-container">
+          <button class="language-button navbar-toggle" onclick="changeLanguage('ru')">Русский</button>
+          <button class="language-button navbar-toggle" onclick="changeLanguage('pl')">Polski</button>
+        </div>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="fa fa-bars color-white"></span>
         </button>
@@ -46,7 +50,7 @@
           <li><a data-string="testimonials" href="#testimonials">Отзывы</a></li>
           <li><a data-string="contact" href="#section-contact">Контакты</a></li>
         </ul>
-        <div class="language-button-container">
+        <div class="language-button-container none">
           <button class="language-button" onclick="changeLanguage('ru')">Русский</button>
           <button class="language-button" onclick="changeLanguage('pl')">Polski</button>
         </div>
@@ -80,7 +84,7 @@
       </div>
       <div class="row align-center mar-bot40">
         <div class="col-md-3">
-          <h4 data-string="about-title_freight" class="team-member">Грузовые перевозки</h4>
+          <h3 data-string="about-title_freight" class="team-member">Грузовые перевозки</h3>
           <div class="freight-transport"></div>
           <div class="team-detail">
             <h5 data-string="about-information_freight" class="team-information">Мы предлагаем грузовые перевозки по
@@ -90,7 +94,7 @@
           </div>
         </div>
         <div class="col-md-3">
-          <h4 data-string="about-title_passenger" class="team-member">Пассажирские перевозки</h4>
+          <h3 data-string="about-title_passenger" class="team-member">Пассажирские перевозки</h3>
           <div class="passenger-transport"></div>
           <div class="team-detail">
             <h5 data-string="about-information_passenger" class="team-information">Мы предлагаем комфортабельные
@@ -106,7 +110,7 @@
   <!-- services -->
   <section id="section-services" class="section pad-bot30 bg-white">
     <div class="container">
-      <div class="row mar-bot40">
+      <div class="row mar-bot40 flex-column">
         <div class="col-lg-4">
           <div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a mar-top20">
             <div class="float-left mar-right20">
@@ -114,9 +118,7 @@
             </div>
           </div>
           <h3 data-string="services-text_right" class="text-bold">Обеспечение страховки на груз и пассажиров</h3>
-          <div class="clear"></div>
         </div>
-
         <div class="col-lg-4">
           <div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a mar-top20">
             <div class="float-left mar-right20">
@@ -124,9 +126,7 @@
             </div>
           </div>
           <h3 data-string="services-text_center" class="text-bold">Оформление всех необходимых документов</h3>
-          <div class="clear"></div>
         </div>
-
         <div class="col-lg-4">
           <div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a mar-top20">
             <div class="float-left mar-right20">
@@ -134,7 +134,6 @@
             </div>
           </div>
           <h3 data-string="services-text_left" class="text-bold">Круглосуточная поддержка клиентов</h3>
-          <div class="clear"></div>
         </div>
       </div>
     </div>
@@ -199,25 +198,25 @@
   <section id="parallax1" class="section" data-stellar-background-ratio="0.5">
     <div class="container">
       <div class="row appear stats">
-        <div class="col-md-3">
+        <div class="col-md-3 parallax">
           <div class="align-center color-white txt-shadow">
             <strong id="counter-coffee" class="number">8000</strong><br>
             <span data-string="parallax1-text_first" class="text">Пассажиров перевезено</span>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 parallax">
           <div class="align-center color-white txt-shadow">
             <strong id="counter-music" class="number">5000</strong><br>
             <span data-string="parallax1-text_second" class="text">Постоянных клиентов</span>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 parallax">
           <div class="align-center color-white txt-shadow">
             <strong id="counter-clock" class="number">9500</strong><br>
             <span data-string="parallax1-text_third" class="text">Рейстов сделано</span>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 parallax">
           <div class="align-center color-white txt-shadow">
             <strong id="counter-heart" class="number">5</strong><br>
             <span data-string="parallax1-text_fours" class="text">Лет на рынке</span>
@@ -413,8 +412,10 @@
       <div class="row mar-bot40">
         <div class="col-md-offset-3 col-md-6">
           <div class="section-header">
-            <h2 data-string="section-contact-title" class="section-heading animated" data-animation="bounceInUp">СВЯЗАТЬСЯ С НАМИ</h2>
-            <p data-string="section-contact-info">Свяжитесь с нами сегодня, чтобы получить более подробную информацию о наших услугах и начать
+            <h2 data-string="section-contact-title" class="section-heading animated" data-animation="bounceInUp">
+              СВЯЗАТЬСЯ С НАМИ</h2>
+            <p data-string="section-contact-info">Свяжитесь с нами сегодня, чтобы получить более подробную информацию о
+              наших услугах и начать
               сотрудничество!
             </p>
           </div>
@@ -480,7 +481,6 @@
             <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
             <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
             <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-            <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
           </ul>
         </div>
       </div>

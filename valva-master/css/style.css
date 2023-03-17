@@ -30,6 +30,7 @@ body {
 
 
 .col-md-3 {
+	width: 600px;
 margin: 3px 30px 0 30px;
 }
 #section-contact{
@@ -43,14 +44,16 @@ margin: 3px 30px 0 30px;
 .appear{
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 .contact-container{
 	display: flex;
-	justify-content: space-evenly;
+	flex-direction: column;
+	align-items:center;
 }
 .contact-link{
 	font-size: 20px;
-	width: 27%;
+	margin-bottom: 20px;
 }
 
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -118,6 +121,11 @@ a:hover {
 .t-uppercase {
 	text-transform: uppercase;
 }
+.flex-column{
+	flex-direction: column;
+	width: 100%;
+	align-content: center;
+}
 
 /*==========================================================================
   Misc & Adjust
@@ -146,6 +154,9 @@ a:hover {
 }
 
 .content,.container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
 	overflow: hidden;
 }
 
@@ -338,8 +349,10 @@ a:hover {
 	margin-bottom: 35px;
 }
 .mar-bot40 {
+	flex-wrap: wrap;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	overflow-wrap: break-word;
 	margin-bottom: 100px;
 }
 
@@ -370,6 +383,10 @@ section.section {
  --- Parallax ---
 ============================= */
 
+.parallax{
+	width: 300px;
+}
+
 #parallax1{
 	background-image: url(../img/parallax/img1.jpg);
 }
@@ -385,6 +402,7 @@ section.section {
 	height: 100px;
 	background-color: rgba(0,0,0,0.3);
 	display: block;
+	vertical-align: middle;
 	text-align: center;
 	margin-bottom: 0;
 	padding-bottom:0;
@@ -1115,9 +1133,19 @@ Media queries
 	.navbar-nav {
 		margin-top: 20px;
 	}
+	.language-button {
+    margin-left: 0px;
+}
+
 }
 @media (max-width: 767px) {
 
+	.animated{
+		font-size: 24px;
+	}
+	.none{
+		display: none;
+	}
 	.navbar.navbar-fixed-top {
 		background-color:rgba(0,0,0,1);
 	}
