@@ -15,7 +15,9 @@ let strings = {
         "about-title_passenger": "Пассажирские перевозки",
         "about-information_freight":
             "Мы предлагаем грузовые перевозки по всей Европе. Независимо от того, какой груз вы хотите перевезти и куда, наши профессионалы помогут вам выбрать оптимальный маршрут и наиболее подходящий вид транспорта. Мы гарантируем своевременную доставку вашего груза в целости и сохранности.",
-        "about-information_passenger":
+            "about-information_freight-home":"Предоставляем услуги домашних перевозок по Польше.",
+            "about-information_freight-europe":"Предоставляем услуги грузоперевозок по всей Европе.",
+            "about-information_passenger":
             "Мы предлагаем комфортабельные автобусы и микроавтобусы различной вместимости для перевозки пассажиров по Европе. Наша команда профессионалов обеспечит безопасную и комфортную поездку, а наши водители имеют многолетний опыт работы и отличное знание местных дорог.",
         "services-text_right": "Обеспечение страховки на груз и пассажиров",
         "services-text_center": "Оформление всех необходимых документов",
@@ -62,8 +64,10 @@ let strings = {
         "about-title_freight": "Transport towarowy",
         "about-title_passenger": "Transport pasażerski",
         "about-information_freight":
-            "Oferujemy transport towarów na terenie całej Europy. Bez względu na to, jaki ładunek chcesz przewieźć i gdzie, nasi fachowcy pomogą Ci wybrać najlepszą trasę i najodpowiedniejszy środek transportu. Gwarantujemy terminową dostawę Twojego ładunku w dobrym stanie.",
-        "about-information_passenger":
+            "Oferujemy szeroki zakres usług w zakresie transportu ładunków. Jesteśmy w stanie odebrać i dostarczyć Twój ładunek niezależnie od jego gabarytów i wagi.<br> Mianowicie:",
+            "about-information_freight-home":"Świadczymy usługi transportu do domu na terenie Polski.",
+            "about-information_freight-europe":"Świadczymy usługi spedycyjne na terenie całej Europy.",
+            "about-information_passenger":
             "Oferujemy komfortowe busy i minibusy o różnej pojemności do przewozu pasażerów na terenie całej Europy. Nasz zespół fachowców zadba o bezpieczną i komfortową jazdę, a nasi kierowcy posiadają wieloletnie doświadczenie i doskonałą znajomość lokalnych dróg.",
         "services-text_right": "Ubezpieczenie ładunku i pasażerów",
         "services-text_center":
