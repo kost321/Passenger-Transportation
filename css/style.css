@@ -92,8 +92,7 @@ margin: 3px 30px 0 30px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	height: 8vh;
-	margin-top: 100px;
+	margin-top: 65px;
 }
 .contact-link{
 	font-size: 20px;
@@ -144,6 +143,11 @@ blockquote.bigquote {
 	line-height: 1em;
 }
 
+
+.icon{
+	width: 100px;
+	content: "\f09a";
+}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 	display: block;
 }
@@ -884,6 +888,10 @@ nav#filter a {
 	font-size: 18px;
 	font-family: Georgia, sans-serif;
 	line-height: 1.5em;
+}
+
+.icons8-arrow{
+	background-image: url('../img/icons8-facebook-48.png')
 }
 
 /*===========================
